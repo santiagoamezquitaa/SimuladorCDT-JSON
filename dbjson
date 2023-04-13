@@ -1,0 +1,41 @@
+{
+    "bpop": [
+        { "range": { "min": 90, "max": 119 }, "rate": 0.1035 },
+        { "range": { "min": 120, "max": 149 }, "rate": 0.1155 },
+        { "range": { "min": 150, "max": 179 }, "rate": 0.118 },
+        { "range": { "min": 180, "max": 359 }, "rate": 0.1225 },
+        { "range": { "min": 360, "max": 539 }, "rate": 0.1250 },
+        { "range": { "min": 540, "max": 719 }, "rate": 0.1220 },
+        { "range": { "min": 720, "max": 720 }, "rate": 0.12 }
+    ],
+    "bavv": [
+        { "range": { "min": 90, "max": 119 }, "rate": 0.1235 },
+        { "range": { "min": 120, "max": 179 }, "rate": 0.1265 },
+        { "range": { "min": 180, "max": 359 }, "rate": 0.1285 },
+        { "range": { "min": 360, "max": 539 }, "rate": 0.1360 },
+        { "range": { "min": 540, "max": 719 }, "rate": 0.1365 },
+        { "range": { "min": 720, "max": 720 }, "rate": 0.1370 }
+    ],
+    "bbgt": [
+        { "range": { "min": 90, "max": 119 }, "rate": 0.1317 },
+        { "range": { "min": 120, "max": 179 }, "rate": 0.1365 },
+        { "range": { "min": 180, "max": 359 }, "rate": 0.1381 },
+        { "range": { "min": 360, "max": 419 }, "rate": 0.1433 },
+        { "range": { "min": 420, "max": 509 }, "rate": 0.1436 },
+        { "range": { "min": 510, "max": 539 }, "rate": 0.1465 },
+        { "range": { "min": 540, "max": 719 }, "rate": 0.1478 },
+        { "range": { "min": 720, "max": 900 }, "rate": 0.1482 },
+        { "range": { "min": 900, "max": 1080 }, "rate": 0.1512 }
+    ],
+    "bocc": [
+        { "range": { "min": 30, "max": 50 }, "rate": 0.05 },
+        { "range": { "min": 51, "max": 80 }, "rate": 0.055 },
+        { "range": { "min": 81, "max": 150 }, "rate": 0.13 },
+        { "range": { "min": 151, "max": 240 }, "rate": 0.14 },
+        { "range": { "min": 241, "max": 330 }, "rate": 0.141 },
+        { "range": { "min": 331, "max": 539 }, "rate": 0.138 },
+        { "range": { "min": 540, "max": 719 }, "rate": 0.138 },
+        { "range": { "min": 720, "max": 1079 }, "rate": 0.135 },
+        { "range": { "min": 1080, "max": 1460 }, "rate": 0.132 }
+    ]
+}
